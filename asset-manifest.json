@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/ts-assignment/static/js/main.6060a066.chunk.js",
+    "main.js.map": "/ts-assignment/static/js/main.6060a066.chunk.js.map",
+    "runtime-main.js": "/ts-assignment/static/js/runtime-main.c5656349.js",
+    "runtime-main.js.map": "/ts-assignment/static/js/runtime-main.c5656349.js.map",
+    "static/js/2.4c0fdc6d.chunk.js": "/ts-assignment/static/js/2.4c0fdc6d.chunk.js",
+    "static/js/2.4c0fdc6d.chunk.js.map": "/ts-assignment/static/js/2.4c0fdc6d.chunk.js.map",
+    "index.html": "/ts-assignment/index.html",
+    "static/js/2.4c0fdc6d.chunk.js.LICENSE.txt": "/ts-assignment/static/js/2.4c0fdc6d.chunk.js.LICENSE.txt",
+    "static/media/airbnb-logo.0bd38279.svg": "/ts-assignment/static/media/airbnb-logo.0bd38279.svg",
+    "static/media/background.97a40127.png": "/ts-assignment/static/media/background.97a40127.png",
+    "static/media/close.2137a5ca.svg": "/ts-assignment/static/media/close.2137a5ca.svg",
+    "static/media/hamburger.248cb828.svg": "/ts-assignment/static/media/hamburger.248cb828.svg",
+    "static/media/night.5114e4fb.svg": "/ts-assignment/static/media/night.5114e4fb.svg",
+    "static/media/search.c2c7dda5.svg": "/ts-assignment/static/media/search.c2c7dda5.svg",
+    "static/media/sunny.a598404d.svg": "/ts-assignment/static/media/sunny.a598404d.svg",
+    "static/media/toggle.5339855c.svg": "/ts-assignment/static/media/toggle.5339855c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5656349.js",
+    "static/js/2.4c0fdc6d.chunk.js",
+    "static/js/main.6060a066.chunk.js"
+  ]
+}
