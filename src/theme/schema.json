@@ -2,13 +2,23 @@
   "light": {
     "mode": "light",
     "varibles": {
-      "backdrop": "rgba(255, 255, 255, 0)"
+      "backdrop": "rgba(255, 255, 255, 0)",
+      "inputBackground": "#F8F8F8",
+      "inputColor": "#484848",
+      "placeHolderColor": "rgba(72, 72, 72, 0.7)",
+      "borderColor": "#ebebeb",
+      "dropdownBackground": "#fff"
     }
   },
   "dark": {
     "mode": "dark",
     "varibles": {
-      "backdrop": "rgba(0, 0, 0, .85)"
+      "backdrop": "rgba(0, 0, 0, .85)",
+      "inputBackground": "#0E0E0E",
+      "inputColor": "#CDCDCD",
+      "placeHolderColor": "#BFBFBF",
+      "borderColor": "#565656",
+      "dropdownBackground": "#1B1B1B"
     }
   }
 }

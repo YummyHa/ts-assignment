@@ -5,12 +5,19 @@ import {
   RightHeaderWrapper,
 } from "./styles";
 import ToggleSwitch from "components/ToggleSwitch";
+import { ReactComponent as HamburgerIcon } from 'assets/images/hamburger.svg';
+import { ReactComponent as CloseIcon } from 'assets/images/close.svg';
+import { useState } from "react";
 
 function Header() {
+  const [openDrawer, setOpenDrawer] = useState(false);
+
   return (
-    <HeaderWrapper>
+    <HeaderWrapper openDrawer={openDrawer}>
       <Logo />
-      <RightHeaderWrapper>
+      <HamburgerIcon onClick={() => setOpenDrawer(true)} />
+      <RightHeaderWrapper openDrawer={openDrawer}>
+        <CloseIcon onClick={() => setOpenDrawer(false)} />
         <ToggleSwitch />
         <NavigationBar>
           <li>
