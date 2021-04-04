@@ -1,5 +1,9 @@
-import Header from './Header';
+import Header from './Header/Header';
+import AutoComplete from './AutoComplete/AutoComplete';
+import ToggleSwitch from './ToggleSwitch/ToggleSwitch';
 
 export {
-  Header
+  Header,
+  AutoComplete,
+  ToggleSwitch
 }

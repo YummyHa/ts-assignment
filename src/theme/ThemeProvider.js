@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import { ThemeProvider as SCThemeProvider } from "styled-components";
+import GlobalStyles from "./globalStyles";
 import { getFromLS } from "utils/storage";
 
 const ThemeDispatchContext = React.createContext();
@@ -20,6 +21,7 @@ function ThemeProvider({ children }) {
     themeLoaded && (
       <SCThemeProvider theme={theme}>
         <ThemeDispatchContext.Provider value={setTheme}>
+          <GlobalStyles />
           {children}
         </ThemeDispatchContext.Provider>
       </SCThemeProvider>

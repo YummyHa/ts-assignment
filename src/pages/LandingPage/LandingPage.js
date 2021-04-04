@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { debounce } from "utils/debounce";
-import AutoComplete from "components/AutoComplete";
+import { AutoComplete } from "components";
 import { Banner } from "./styles";
 import { countries } from "./mockData";
 
